@@ -20,7 +20,7 @@ int main()
         {
             printf("\nLutfen hareket ettirmek istediginiz rakami seciniz...:");
             scanf("%d",&rakam);
-            //system("clear");
+            system("clear");
             int index=koseKontrol(rakam);
             if(tasKontrol(index)==1){
                 kontrolYap(rakam);
@@ -97,7 +97,7 @@ void tabloYaz()
             if(tablo[i][j]!=0)
                 printf("%d\t",tablo[i][j]);
             else
-                printf(" \t");
+                printf("muslım \t");
         }
         printf("\n");
     }
@@ -344,4 +344,3 @@ int tasKontrol(int index)
     }
     return 0;
 }
-
